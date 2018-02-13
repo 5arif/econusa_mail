@@ -1,6 +1,6 @@
 var nmail = require('nodemailer');
-var senderEmail = 'sarif.onwork@gmail.com';
-var senderPass = 'superman007';
+var senderEmail = 'put your email here';
+var senderPass = 'put your pass here';
 var toEmail = 'shidayat007@gmail.com';
 
 var transporter = nmail.createTransport({
@@ -14,7 +14,7 @@ var transporter = nmail.createTransport({
   var mailOpt = {
     from: senderEmail,
     to: toEmail,
-    
+
     subject: 'Email Test',
     text: 'PT Econusa InterAktiv Indonesia Node Js Email Test'
   };
